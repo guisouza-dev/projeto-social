@@ -35,6 +35,21 @@ section#telefone {
     background-repeat: no-repeat;
 }
 
+section#redes-sociais > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.399);
+    transform: translate(2px, -2px);
+    box-shadow: 4px 4px 13px 0px rgba(0, 0, 0, 0.201);
+    transition: transform 0.5s, border 0.8s;
+}
+
+section#redes-sociais > a > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.201);
+    box-sizing: border-box;
+}
+
 iframe {
     border: 0;
 }
